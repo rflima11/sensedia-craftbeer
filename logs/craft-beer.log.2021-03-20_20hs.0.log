@@ -1,0 +1,494 @@
+2021-03-20 20:03:52,818 [Thread-50                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:03:52,819 [Thread-50                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:03:52,829 [Thread-50                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:03:52,834 [Thread-50                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Shutdown initiated...
+2021-03-20 20:03:52,853 [Thread-50                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Shutdown completed.
+2021-03-20 20:03:53,090 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:03:53,091 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:03:53,091 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:03:53,267 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:03:53,273 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:03:53,373 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:03:53,373 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:03:53,374 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:03:53,374 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:03:53,381 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:03:53,381 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 288 ms
+2021-03-20 20:03:53,399 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Starting...
+2021-03-20 20:03:53,404 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Start completed.
+2021-03-20 20:03:53,404 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:03:53,428 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:03:53,447 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:03:53,513 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:03:53,514 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:03:53,524 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:03:53,631 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:03:53,665 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:03:53,731 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:03:53,739 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:03:53,745 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.694 seconds (JVM running for 2978.029)
+2021-03-20 20:03:53,748 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:04:03,655 [http-nio-9000-exec-3        ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-20 20:04:03,656 [http-nio-9000-exec-3        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Initializing Servlet 'dispatcherServlet'
+2021-03-20 20:04:03,657 [http-nio-9000-exec-3        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Completed initialization in 1 ms
+2021-03-20 20:04:03,680 [http-nio-9000-exec-3        ] [WARN ] o.s.w.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver  -
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.beerhouse.dto.BeerDto> com.beerhouse.controller.BeerController.save(com.beerhouse.dto.BeerDto,org.springframework.web.util.UriComponentsBuilder) with 2 errors: [Field error in object 'beerDto' on field 'name': rejected value [null]; codes [NotNull.beerDto.name,NotNull.name,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.name,name]; arguments []; default message [name]]; default message [Name cannot be null]] [Field error in object 'beerDto' on field 'name': rejected value [null]; codes [NotEmpty.beerDto.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.name,name]; arguments []; default message [name]]; default message [Name cannot be empty]] ]
+2021-03-20 20:04:35,839 [http-nio-9000-exec-4        ] [WARN ] o.s.w.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver  -
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.beerhouse.dto.BeerDto> com.beerhouse.controller.BeerController.save(com.beerhouse.dto.BeerDto,org.springframework.web.util.UriComponentsBuilder): [Field error in object 'beerDto' on field 'name': rejected value []; codes [NotEmpty.beerDto.name,NotEmpty.name,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.name,name]; arguments []; default message [name]]; default message [Name cannot be empty]] ]
+2021-03-20 20:04:57,359 [http-nio-9000-exec-6        ] [WARN ] o.s.w.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver  -
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.beerhouse.dto.BeerDto> com.beerhouse.controller.BeerController.save(com.beerhouse.dto.BeerDto,org.springframework.web.util.UriComponentsBuilder): [Field error in object 'beerDto' on field 'price': rejected value [400]; codes [DecimalMax.beerDto.price,DecimalMax.price,DecimalMax.java.math.BigDecimal,DecimalMax]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.price,price]; arguments []; default message [price],true,30.00]; default message [must be less than or equal to 30.00]] ]
+2021-03-20 20:05:10,331 [http-nio-9000-exec-7        ] [WARN ] o.s.w.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver  -
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.beerhouse.dto.BeerDto> com.beerhouse.controller.BeerController.save(com.beerhouse.dto.BeerDto,org.springframework.web.util.UriComponentsBuilder): [Field error in object 'beerDto' on field 'price': rejected value [40]; codes [DecimalMax.beerDto.price,DecimalMax.price,DecimalMax.java.math.BigDecimal,DecimalMax]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.price,price]; arguments []; default message [price],true,30.00]; default message [must be less than or equal to 30.00]] ]
+2021-03-20 20:05:41,316 [Thread-55                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:05:41,317 [Thread-55                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:05:41,317 [Thread-55                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:05:41,321 [Thread-55                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Shutdown initiated...
+2021-03-20 20:05:41,329 [Thread-55                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Shutdown completed.
+2021-03-20 20:05:41,535 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:05:41,535 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:05:41,536 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:05:41,714 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:05:41,722 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:05:41,819 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:05:41,821 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:05:41,821 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:05:41,821 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:05:41,825 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:05:41,826 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 286 ms
+2021-03-20 20:05:41,846 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-12 - Starting...
+2021-03-20 20:05:41,856 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-12 - Start completed.
+2021-03-20 20:05:41,857 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:05:41,887 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:05:41,891 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:05:41,934 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:05:41,934 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:05:41,940 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:05:42,032 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:05:42,062 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:05:42,118 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:05:42,128 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:05:42,132 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.636 seconds (JVM running for 3086.415)
+2021-03-20 20:05:42,134 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:07:12,686 [Thread-60                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:12,687 [Thread-60                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:12,687 [Thread-60                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:07:12,690 [Thread-60                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-12 - Shutdown initiated...
+2021-03-20 20:07:12,701 [Thread-60                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-12 - Shutdown completed.
+2021-03-20 20:07:12,922 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:07:12,922 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:07:12,922 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:07:13,055 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:07:13,061 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:07:13,151 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:07:13,152 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:13,153 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:07:13,153 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:07:13,157 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:07:13,157 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 233 ms
+2021-03-20 20:07:13,181 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-13 - Starting...
+2021-03-20 20:07:13,195 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-13 - Start completed.
+2021-03-20 20:07:13,195 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:07:13,213 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:07:13,217 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:07:13,266 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:07:13,267 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:13,274 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:07:13,382 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:07:13,423 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:13,510 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:13,524 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:07:13,528 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.677 seconds (JVM running for 3177.811)
+2021-03-20 20:07:13,529 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:07:22,939 [Thread-65                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:22,940 [Thread-65                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:22,940 [Thread-65                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:07:22,946 [Thread-65                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-13 - Shutdown initiated...
+2021-03-20 20:07:22,955 [Thread-65                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-13 - Shutdown completed.
+2021-03-20 20:07:23,115 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:07:23,115 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:07:23,115 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:07:23,281 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:07:23,290 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:07:23,386 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:07:23,386 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:23,386 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:07:23,387 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:07:23,389 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:07:23,389 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 272 ms
+2021-03-20 20:07:23,405 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-14 - Starting...
+2021-03-20 20:07:23,408 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-14 - Start completed.
+2021-03-20 20:07:23,408 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:07:23,430 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:07:23,436 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:07:23,485 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:07:23,486 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:23,491 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:07:23,569 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:07:23,600 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:23,656 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:23,677 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:07:23,681 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.594 seconds (JVM running for 3187.965)
+2021-03-20 20:07:23,683 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:07:27,078 [Thread-70                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:27,079 [Thread-70                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:27,079 [Thread-70                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:07:27,083 [Thread-70                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-14 - Shutdown initiated...
+2021-03-20 20:07:27,099 [Thread-70                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-14 - Shutdown completed.
+2021-03-20 20:07:27,268 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:07:27,269 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:07:27,269 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:07:27,403 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:07:27,411 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:07:27,487 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:07:27,487 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:27,487 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:07:27,487 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:07:27,491 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:07:27,491 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 220 ms
+2021-03-20 20:07:27,504 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-15 - Starting...
+2021-03-20 20:07:27,513 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-15 - Start completed.
+2021-03-20 20:07:27,513 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:07:27,541 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:07:27,544 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:07:27,602 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:07:27,602 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:07:27,607 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:07:27,699 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:07:27,731 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:07:27,779 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:07:27,789 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:07:27,793 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.564 seconds (JVM running for 3192.077)
+2021-03-20 20:07:27,795 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:08:09,266 [Thread-75                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:08:09,267 [Thread-75                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:08:09,267 [Thread-75                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:08:09,275 [Thread-75                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-15 - Shutdown initiated...
+2021-03-20 20:08:09,286 [Thread-75                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-15 - Shutdown completed.
+2021-03-20 20:08:09,562 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:08:09,562 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:08:09,562 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:08:09,754 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:08:09,761 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:08:09,913 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:08:09,915 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:08:09,915 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:08:09,915 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:08:09,930 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:08:09,930 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 366 ms
+2021-03-20 20:08:09,952 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-16 - Starting...
+2021-03-20 20:08:09,957 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-16 - Start completed.
+2021-03-20 20:08:09,957 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:08:09,982 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:08:09,990 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:08:10,029 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:08:10,030 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:08:10,034 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:08:10,140 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:08:10,185 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:08:10,268 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:08:10,298 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:08:10,301 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.78 seconds (JVM running for 3234.585)
+2021-03-20 20:08:10,303 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:08:42,729 [Thread-80                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:08:42,730 [Thread-80                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:08:42,731 [Thread-80                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:08:42,733 [Thread-80                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-16 - Shutdown initiated...
+2021-03-20 20:08:42,740 [Thread-80                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-16 - Shutdown completed.
+2021-03-20 20:08:42,972 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:08:42,972 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:08:42,972 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:08:43,142 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:08:43,150 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:08:43,244 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:08:43,245 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:08:43,245 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:08:43,245 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:08:43,253 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:08:43,253 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 280 ms
+2021-03-20 20:08:43,272 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-17 - Starting...
+2021-03-20 20:08:43,276 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-17 - Start completed.
+2021-03-20 20:08:43,276 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:08:43,296 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:08:43,302 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:08:43,350 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:08:43,350 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:08:43,355 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:08:43,465 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:08:43,502 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:08:43,550 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:08:43,558 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:08:43,561 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.615 seconds (JVM running for 3267.845)
+2021-03-20 20:08:43,563 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-20 20:10:58,186 [Thread-85                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:10:58,187 [Thread-85                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:10:58,187 [Thread-85                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-20 20:10:58,189 [Thread-85                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-17 - Shutdown initiated...
+2021-03-20 20:10:58,200 [Thread-85                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-17 - Shutdown completed.
+2021-03-20 20:10:58,370 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 120157 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-20 20:10:58,371 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-20 20:10:58,371 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-20 20:10:58,538 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-20 20:10:58,546 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-03-20 20:10:58,623 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-20 20:10:58,624 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:10:58,624 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-20 20:10:58,624 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-20 20:10:58,627 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-20 20:10:58,627 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 254 ms
+2021-03-20 20:10:58,639 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-18 - Starting...
+2021-03-20 20:10:58,642 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-18 - Start completed.
+2021-03-20 20:10:58,642 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-20 20:10:58,655 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-20 20:10:58,659 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-20 20:10:58,719 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-20 20:10:58,719 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-20 20:10:58,726 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-20 20:10:58,823 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-20 20:10:58,849 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-20 20:10:58,902 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-20 20:10:58,907 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-20 20:10:58,909 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.591 seconds (JVM running for 3403.193)
+2021-03-20 20:10:58,910 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged

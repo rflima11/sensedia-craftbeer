@@ -1,0 +1,804 @@
+2021-03-21 18:13:18,725 [Thread-30                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:13:18,729 [Thread-30                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:13:18,729 [Thread-30                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:13:18,734 [Thread-30                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-6 - Shutdown initiated...
+2021-03-21 18:13:18,744 [Thread-30                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-6 - Shutdown completed.
+2021-03-21 18:13:18,968 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 44522 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:13:18,969 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:13:18,969 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:13:19,171 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:13:19,183 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:13:19,294 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:13:19,295 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:13:19,297 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:13:19,298 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:13:19,304 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:13:19,305 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 333 ms
+2021-03-21 18:13:19,331 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-7 - Starting...
+2021-03-21 18:13:19,343 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-7 - Start completed.
+2021-03-21 18:13:19,343 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:13:19,377 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:13:19,383 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:13:19,466 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:13:19,466 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:13:19,472 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:13:19,619 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:13:19,644 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:13:19,717 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:13:19,752 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-21 18:13:19,757 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.855 seconds (JVM running for 1843.874)
+2021-03-21 18:13:19,759 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-21 18:13:25,122 [http-nio-9000-exec-2        ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-21 18:13:25,125 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Initializing Servlet 'dispatcherServlet'
+2021-03-21 18:13:25,126 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Completed initialization in 1 ms
+2021-03-21 18:15:14,320 [Thread-35                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:15:14,320 [Thread-35                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:15:14,320 [Thread-35                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:15:14,322 [Thread-35                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-7 - Shutdown initiated...
+2021-03-21 18:15:14,330 [Thread-35                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-7 - Shutdown completed.
+2021-03-21 18:15:14,488 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 44522 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:15:14,489 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:15:14,489 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:15:14,656 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:15:14,666 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:15:14,773 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:15:14,774 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:15:14,774 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:15:14,774 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:15:14,778 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:15:14,778 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 286 ms
+2021-03-21 18:15:14,794 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-8 - Starting...
+2021-03-21 18:15:14,799 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-8 - Start completed.
+2021-03-21 18:15:14,799 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:15:14,821 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:15:14,828 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:15:14,875 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:15:14,876 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:15:14,883 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:15:15,027 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:15:15,073 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:15:15,156 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:15:15,175 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-21 18:15:15,179 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.725 seconds (JVM running for 1959.297)
+2021-03-21 18:15:15,181 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-21 18:15:39,615 [Thread-40                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:15:39,616 [Thread-40                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:15:39,617 [Thread-40                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:15:39,619 [Thread-40                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-8 - Shutdown initiated...
+2021-03-21 18:15:39,638 [Thread-40                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-8 - Shutdown completed.
+2021-03-21 18:15:39,899 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 44522 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:15:39,900 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:15:39,900 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:15:40,094 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:15:40,104 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:15:40,212 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:15:40,213 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:15:40,213 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:15:40,213 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:15:40,219 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:15:40,219 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 316 ms
+2021-03-21 18:15:40,242 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-9 - Starting...
+2021-03-21 18:15:40,246 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-9 - Start completed.
+2021-03-21 18:15:40,246 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:15:40,285 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:15:40,290 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:15:40,324 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:15:40,324 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:15:40,330 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:15:40,448 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:15:40,473 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:15:40,543 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:15:40,559 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-21 18:15:40,564 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 0.718 seconds (JVM running for 1984.681)
+2021-03-21 18:15:40,565 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-21 18:16:23,020 [Thread-45                   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:16:23,021 [Thread-45                   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:16:23,021 [Thread-45                   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:16:23,024 [Thread-45                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-9 - Shutdown initiated...
+2021-03-21 18:16:23,039 [Thread-45                   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-9 - Shutdown completed.
+2021-03-21 18:16:23,230 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 44522 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:16:23,231 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:16:23,231 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:16:23,414 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:16:23,421 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:16:23,521 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:16:23,522 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:16:23,522 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:16:23,522 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:16:23,526 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:16:23,527 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 294 ms
+2021-03-21 18:16:23,545 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Starting...
+2021-03-21 18:16:23,550 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Start completed.
+2021-03-21 18:16:23,550 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:16:23,571 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:16:23,580 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:16:23,642 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:16:23,642 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:16:23,649 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:16:23,666 [restartedMain               ] [WARN ] o.s.b.w.s.context.AnnotationConfigServletWebServerApplicationContext   -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController': Unsatisfied dependency expressed through field 'beerService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68515750]
+2021-03-21 18:16:23,666 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:16:23,666 [restartedMain               ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:16:23,671 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Shutdown initiated...
+2021-03-21 18:16:23,692 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-10 - Shutdown completed.
+2021-03-21 18:16:23,692 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Stopping service [Tomcat]
+2021-03-21 18:16:23,707 [restartedMain               ] [INFO ] o.s.b.autoconfigure.logging.ConditionEvaluationReportLoggingListener   -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-21 18:16:23,756 [restartedMain               ] [ERROR] org.springframework.boot.SpringApplication                             -
+				Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController': Unsatisfied dependency expressed through field 'beerService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68515750]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.beerhouse.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68515750]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68515750]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 38 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: BeerDtoPatch
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: BeerDtoPatch
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 44 common frames omitted
+2021-03-21 18:16:29,233 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 44522 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:16:29,233 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:16:29,233 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:16:29,421 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:16:29,430 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:16:29,615 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:16:29,616 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:16:29,616 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:16:29,616 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:16:29,620 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]      -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:16:29,620 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 383 ms
+2021-03-21 18:16:29,636 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Starting...
+2021-03-21 18:16:29,640 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Start completed.
+2021-03-21 18:16:29,640 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:16:29,659 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:16:29,664 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:16:29,710 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:16:29,710 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:16:29,715 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:16:29,722 [restartedMain               ] [WARN ] o.s.b.w.s.context.AnnotationConfigServletWebServerApplicationContext   -
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController': Unsatisfied dependency expressed through field 'beerService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d42f422]
+2021-03-21 18:16:29,722 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:16:29,722 [restartedMain               ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:16:29,723 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Shutdown initiated...
+2021-03-21 18:16:29,734 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-11 - Shutdown completed.
+2021-03-21 18:16:29,735 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Stopping service [Tomcat]
+2021-03-21 18:16:29,748 [restartedMain               ] [INFO ] o.s.b.autoconfigure.logging.ConditionEvaluationReportLoggingListener   -
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-21 18:16:29,751 [restartedMain               ] [ERROR] org.springframework.boot.SpringApplication                             -
+				Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController': Unsatisfied dependency expressed through field 'beerService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d42f422]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.beerhouse.Application.main(Application.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d42f422]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.beerhouse.service.BeerService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d42f422]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 38 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: BeerDtoPatch
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: BeerDtoPatch
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 44 common frames omitted
+2021-03-21 18:21:08,738 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.beerhouse.controller.BeerControllerTest], using SpringBootContextLoader
+2021-03-21 18:21:08,747 [main                        ] [INFO ] org.springframework.test.context.support.AbstractContextLoader         -
+				Could not detect default resource locations for test class [com.beerhouse.controller.BeerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-21 18:21:08,749 [main                        ] [INFO ] o.s.test.context.support.AnnotationConfigContextLoaderUtils            -
+				Could not detect default configuration classes for test class [com.beerhouse.controller.BeerControllerTest]: BeerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-21 18:21:08,966 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Found @SpringBootConfiguration com.beerhouse.Application for test class com.beerhouse.controller.BeerControllerTest
+2021-03-21 18:21:09,072 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-21 18:21:09,095 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36916eb0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bab3f1a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@437da279, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23c30a20, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e1a0406, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cebbb30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12aba8be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@290222c1, org.springframework.test.context.event.EventPublishingTestExecutionListener@67f639d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6253c26, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49049a04, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71a8adcf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27462a88, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@82de64a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@659499f1]
+2021-03-21 18:21:09,553 [background-preinit          ] [INFO ] org.hibernate.validator.internal.util.Version                          -
+				HV000001: Hibernate Validator 6.1.7.Final
+2021-03-21 18:21:09,569 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Starting BeerControllerTest using Java 1.8.0_261 on cp3900 with PID 49322 (started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:21:09,570 [main                        ] [DEBUG] com.beerhouse.controller.BeerControllerTest                            -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:21:09,570 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				The following profiles are active: dev
+2021-03-21 18:21:10,819 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:21:10,903 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:21:11,629 [main                        ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:21:11,746 [main                        ] [INFO ] org.hibernate.Version                                                  -
+				HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-21 18:21:11,901 [main                        ] [INFO ] org.hibernate.annotations.common.Version                               -
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-21 18:21:12,042 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Starting...
+2021-03-21 18:21:12,367 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Start completed.
+2021-03-21 18:21:12,416 [main                        ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:21:13,339 [main                        ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:21:13,349 [main                        ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:21:14,354 [main                        ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:21:14,532 [main                        ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:21:14,611 [main                        ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:21:15,216 [main                        ] [INFO ] org.springframework.boot.test.mock.web.SpringBootMockServletContext    -
+				Initializing Spring TestDispatcherServlet ''
+2021-03-21 18:21:15,216 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Initializing Servlet ''
+2021-03-21 18:21:15,217 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Completed initialization in 1 ms
+2021-03-21 18:21:15,243 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Started BeerControllerTest in 6.086 seconds (JVM running for 7.149)
+2021-03-21 18:21:15,863 [SpringContextShutdownHook   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:21:15,864 [SpringContextShutdownHook   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:21:15,865 [SpringContextShutdownHook   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:21:15,872 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:21:15,873 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:21:15,875 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:21:15,875 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:21:15,875 [SpringContextShutdownHook   ] [WARN ] org.springframework.beans.factory.support.DisposableBeanAdapter        -
+				Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2021-03-21 18:21:15,876 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown initiated...
+2021-03-21 18:21:15,880 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown completed.
+2021-03-21 18:21:54,515 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.beerhouse.controller.BeerControllerTest], using SpringBootContextLoader
+2021-03-21 18:21:54,525 [main                        ] [INFO ] org.springframework.test.context.support.AbstractContextLoader         -
+				Could not detect default resource locations for test class [com.beerhouse.controller.BeerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-21 18:21:54,525 [main                        ] [INFO ] o.s.test.context.support.AnnotationConfigContextLoaderUtils            -
+				Could not detect default configuration classes for test class [com.beerhouse.controller.BeerControllerTest]: BeerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-21 18:21:54,726 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Found @SpringBootConfiguration com.beerhouse.Application for test class com.beerhouse.controller.BeerControllerTest
+2021-03-21 18:21:54,844 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-21 18:21:54,868 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36916eb0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bab3f1a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@437da279, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23c30a20, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e1a0406, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cebbb30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12aba8be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@290222c1, org.springframework.test.context.event.EventPublishingTestExecutionListener@67f639d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6253c26, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49049a04, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71a8adcf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27462a88, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@82de64a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@659499f1]
+2021-03-21 18:21:55,300 [background-preinit          ] [INFO ] org.hibernate.validator.internal.util.Version                          -
+				HV000001: Hibernate Validator 6.1.7.Final
+2021-03-21 18:21:55,307 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Starting BeerControllerTest using Java 1.8.0_261 on cp3900 with PID 49455 (started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:21:55,308 [main                        ] [DEBUG] com.beerhouse.controller.BeerControllerTest                            -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:21:55,308 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				The following profiles are active: dev
+2021-03-21 18:21:56,381 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:21:56,497 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:21:57,594 [main                        ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:21:57,796 [main                        ] [INFO ] org.hibernate.Version                                                  -
+				HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-21 18:21:58,001 [main                        ] [INFO ] org.hibernate.annotations.common.Version                               -
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-21 18:21:58,189 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Starting...
+2021-03-21 18:21:58,552 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Start completed.
+2021-03-21 18:21:58,608 [main                        ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:21:59,649 [main                        ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:21:59,661 [main                        ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:22:00,653 [main                        ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:22:00,831 [main                        ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:22:00,908 [main                        ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:22:01,770 [main                        ] [INFO ] org.springframework.boot.test.mock.web.SpringBootMockServletContext    -
+				Initializing Spring TestDispatcherServlet ''
+2021-03-21 18:22:01,771 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Initializing Servlet ''
+2021-03-21 18:22:01,773 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Completed initialization in 1 ms
+2021-03-21 18:22:01,801 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Started BeerControllerTest in 6.869 seconds (JVM running for 7.974)
+2021-03-21 18:22:02,306 [SpringContextShutdownHook   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:22:02,307 [SpringContextShutdownHook   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:22:02,308 [SpringContextShutdownHook   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:22:02,321 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:22:02,322 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:22:02,323 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:22:02,324 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:22:02,324 [SpringContextShutdownHook   ] [WARN ] org.springframework.beans.factory.support.DisposableBeanAdapter        -
+				Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2021-03-21 18:22:02,324 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown initiated...
+2021-03-21 18:22:02,334 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown completed.
+2021-03-21 18:22:40,260 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.beerhouse.controller.BeerControllerTest], using SpringBootContextLoader
+2021-03-21 18:22:40,266 [main                        ] [INFO ] org.springframework.test.context.support.AbstractContextLoader         -
+				Could not detect default resource locations for test class [com.beerhouse.controller.BeerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-03-21 18:22:40,267 [main                        ] [INFO ] o.s.test.context.support.AnnotationConfigContextLoaderUtils            -
+				Could not detect default configuration classes for test class [com.beerhouse.controller.BeerControllerTest]: BeerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-03-21 18:22:40,469 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Found @SpringBootConfiguration com.beerhouse.Application for test class com.beerhouse.controller.BeerControllerTest
+2021-03-21 18:22:40,573 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-03-21 18:22:40,595 [main                        ] [INFO ] o.springframework.boot.test.context.SpringBootTestContextBootstrapper  -
+				Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36916eb0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bab3f1a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@437da279, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23c30a20, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e1a0406, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cebbb30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12aba8be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@290222c1, org.springframework.test.context.event.EventPublishingTestExecutionListener@67f639d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6253c26, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49049a04, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71a8adcf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27462a88, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@82de64a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@659499f1]
+2021-03-21 18:22:41,072 [background-preinit          ] [INFO ] org.hibernate.validator.internal.util.Version                          -
+				HV000001: Hibernate Validator 6.1.7.Final
+2021-03-21 18:22:41,091 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Starting BeerControllerTest using Java 1.8.0_261 on cp3900 with PID 49605 (started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:22:41,092 [main                        ] [DEBUG] com.beerhouse.controller.BeerControllerTest                            -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:22:41,092 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				The following profiles are active: dev
+2021-03-21 18:22:42,269 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:22:42,346 [main                        ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:22:43,060 [main                        ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:22:43,196 [main                        ] [INFO ] org.hibernate.Version                                                  -
+				HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-21 18:22:43,343 [main                        ] [INFO ] org.hibernate.annotations.common.Version                               -
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-21 18:22:43,492 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Starting...
+2021-03-21 18:22:43,825 [main                        ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Start completed.
+2021-03-21 18:22:43,877 [main                        ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:22:44,714 [main                        ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:22:44,724 [main                        ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:22:45,608 [main                        ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:22:45,805 [main                        ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:22:45,885 [main                        ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:22:46,502 [main                        ] [INFO ] org.springframework.boot.test.mock.web.SpringBootMockServletContext    -
+				Initializing Spring TestDispatcherServlet ''
+2021-03-21 18:22:46,503 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Initializing Servlet ''
+2021-03-21 18:22:46,504 [main                        ] [INFO ] org.springframework.test.web.servlet.TestDispatcherServlet             -
+				Completed initialization in 1 ms
+2021-03-21 18:22:46,525 [main                        ] [INFO ] com.beerhouse.controller.BeerControllerTest                            -
+				Started BeerControllerTest in 5.869 seconds (JVM running for 6.904)
+2021-03-21 18:22:47,121 [SpringContextShutdownHook   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:22:47,124 [SpringContextShutdownHook   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:22:47,125 [SpringContextShutdownHook   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:22:47,134 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:22:47,141 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:22:47,143 [SpringContextShutdownHook   ] [WARN ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				SQL Error: 90121, SQLState: 90121
+2021-03-21 18:22:47,147 [SpringContextShutdownHook   ] [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper                       -
+				Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-21 18:22:47,148 [SpringContextShutdownHook   ] [WARN ] org.springframework.beans.factory.support.DisposableBeanAdapter        -
+				Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2021-03-21 18:22:47,149 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown initiated...
+2021-03-21 18:22:47,173 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown completed.
+2021-03-21 18:26:45,781 [background-preinit          ] [INFO ] org.hibernate.validator.internal.util.Version                          -
+				HV000001: Hibernate Validator 6.1.7.Final
+2021-03-21 18:26:45,799 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 50063 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:26:45,800 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:26:45,800 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:26:45,891 [restartedMain               ] [INFO ] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor            -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-21 18:26:45,895 [restartedMain               ] [INFO ] o.s.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor            -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-21 18:26:47,039 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:26:47,151 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:26:48,177 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:26:48,252 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:26:48,253 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:26:48,253 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:26:48,340 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:26:48,341 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 2443 ms
+2021-03-21 18:26:48,419 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Starting...
+2021-03-21 18:26:48,640 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Start completed.
+2021-03-21 18:26:48,647 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:26:48,832 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:26:48,896 [restartedMain               ] [INFO ] org.hibernate.Version                                                  -
+				HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-21 18:26:49,058 [restartedMain               ] [INFO ] org.hibernate.annotations.common.Version                               -
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-21 18:26:49,217 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:26:50,246 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:26:50,254 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:26:50,275 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:26:50,795 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:26:50,884 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:26:51,477 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:26:51,502 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-21 18:26:51,520 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 6.311 seconds (JVM running for 6.966)
+2021-03-21 18:26:53,997 [http-nio-9000-exec-2        ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-21 18:26:53,997 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Initializing Servlet 'dispatcherServlet'
+2021-03-21 18:26:53,999 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Completed initialization in 2 ms
+2021-03-21 18:26:59,496 [http-nio-9000-exec-3        ] [INFO ] com.beerhouse.controller.BeerController                                -
+				ATUALIZING BEER ID: 1
+2021-03-21 18:27:12,603 [http-nio-9000-exec-5        ] [ERROR] com.beerhouse.controller.ExceptionHandlerController                    -
+				Request: http://localhost:9000/beers/999 raised com.beerhouse.exception.BeerNotFoundException: Beer with ID: 999 not found
+2021-03-21 18:27:12,614 [http-nio-9000-exec-5        ] [WARN ] o.s.w.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver  -
+				Resolved [com.beerhouse.exception.BeerNotFoundException: Beer with ID: 999 not found]
+2021-03-21 18:30:28,241 [Thread-6                    ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:30:28,243 [Thread-6                    ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:30:28,244 [Thread-6                    ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:30:28,256 [Thread-6                    ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown initiated...
+2021-03-21 18:30:28,278 [Thread-6                    ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-1 - Shutdown completed.
+2021-03-21 18:30:28,556 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Starting Application using Java 1.8.0_261 on cp3900 with PID 50063 (/home/mtuser/craftbeer/target/classes started by mtuser in /home/mtuser/craftbeer)
+2021-03-21 18:30:28,557 [restartedMain               ] [DEBUG] com.beerhouse.Application                                              -
+				Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-03-21 18:30:28,557 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				The following profiles are active: dev
+2021-03-21 18:30:28,859 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-21 18:30:28,870 [restartedMain               ] [INFO ] o.s.data.repository.config.RepositoryConfigurationDelegate             -
+				Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-03-21 18:30:29,139 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat initialized with port(s): 9000 (http)
+2021-03-21 18:30:29,140 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Initializing ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:30:29,141 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardService                               -
+				Starting service [Tomcat]
+2021-03-21 18:30:29,141 [restartedMain               ] [INFO ] org.apache.catalina.core.StandardEngine                                -
+				Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-21 18:30:29,149 [restartedMain               ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring embedded WebApplicationContext
+2021-03-21 18:30:29,149 [restartedMain               ] [INFO ] o.s.boot.web.servlet.context.ServletWebServerApplicationContext        -
+				Root WebApplicationContext: initialization completed in 586 ms
+2021-03-21 18:30:29,181 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-2 - Starting...
+2021-03-21 18:30:29,205 [restartedMain               ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-2 - Start completed.
+2021-03-21 18:30:29,205 [restartedMain               ] [INFO ] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration   -
+				H2 console available at '/h2'. Database available at 'jdbc:h2:file:~/test'
+2021-03-21 18:30:29,263 [restartedMain               ] [INFO ] org.hibernate.jpa.internal.util.LogHelper                              -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-21 18:30:29,274 [restartedMain               ] [INFO ] org.hibernate.dialect.Dialect                                          -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-21 18:30:29,375 [restartedMain               ] [INFO ] o.h.engine.transaction.jta.platform.internal.JtaPlatformInitiator      -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-21 18:30:29,376 [restartedMain               ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:30:29,383 [restartedMain               ] [INFO ] o.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-03-21 18:30:29,563 [restartedMain               ] [WARN ] o.s.b.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration   -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-21 18:30:29,596 [restartedMain               ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:30:29,695 [restartedMain               ] [INFO ] org.apache.coyote.http11.Http11NioProtocol                             -
+				Starting ProtocolHandler ["http-nio-9000"]
+2021-03-21 18:30:29,713 [restartedMain               ] [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer           -
+				Tomcat started on port(s): 9000 (http) with context path ''
+2021-03-21 18:30:29,721 [restartedMain               ] [INFO ] com.beerhouse.Application                                              -
+				Started Application in 1.241 seconds (JVM running for 225.167)
+2021-03-21 18:30:29,725 [restartedMain               ] [INFO ] o.s.b.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener   -
+				Condition evaluation unchanged
+2021-03-21 18:30:38,114 [http-nio-9000-exec-2        ] [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]        -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-21 18:30:38,119 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Initializing Servlet 'dispatcherServlet'
+2021-03-21 18:30:38,121 [http-nio-9000-exec-2        ] [INFO ] org.springframework.web.servlet.DispatcherServlet                      -
+				Completed initialization in 2 ms
+2021-03-21 18:30:56,686 [SpringContextShutdownHook   ] [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor       -
+				Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-21 18:30:56,687 [SpringContextShutdownHook   ] [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean     -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-21 18:30:56,687 [SpringContextShutdownHook   ] [INFO ] o.h.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl       -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-21 18:30:57,361 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-2 - Shutdown initiated...
+2021-03-21 18:30:57,376 [SpringContextShutdownHook   ] [INFO ] com.zaxxer.hikari.HikariDataSource                                     -
+				HikariPool-2 - Shutdown completed.

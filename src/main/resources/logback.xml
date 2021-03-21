@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="LOGS_FOLDER" value="./logs" />
+
+	<property name="LOG_FILE_NAME" value="craft-beer.log" />
+
+	<appender name="console"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{ISO8601} [%-28.-28thread] [%-5level] %-70logger{70} -
+				%msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="textFile"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS_FOLDER}/${LOG_FILE_NAME}</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%d{ISO8601} [%-28.-28thread] [%-5level] %-70logger{70} -
+				%msg%n</pattern>
+		</encoder>
+	
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>${LOGS_FOLDER}/${LOG_FILE_NAME}.%d{yyyy-MM-dd_HH}hs.%i.log
+			</fileNamePattern>
+			<maxFileSize>10MB</maxFileSize>
+		</rollingPolicy>
+	</appender>
+
+	<!-- LOG everything at INFO level -->
+	<root level="info">
+		<appender-ref ref="textFile" />
+		<appender-ref ref="console" />
+	</root>
+
+	<!-- LOG "com.baeldung*" at TRACE level -->
+	<logger name="com.beerhouse" level="trace" additivity="false">
+		<appender-ref ref="textFile" />
+		<appender-ref ref="console" />
+	</logger>
+
+</configuration>
