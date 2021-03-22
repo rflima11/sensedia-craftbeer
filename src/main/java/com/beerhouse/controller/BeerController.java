@@ -68,7 +68,7 @@ public class BeerController {
 	public ResponseEntity<List<BeerDto>> findAll() {
 		List<BeerDto> beers = beerService.findAll();
 		beers.forEach(x -> LOG.info("Find beer: " + x.getId()));
-		return ResponseEntity.status(HttpStatus.OK).build();
+		return ResponseEntity.status(HttpStatus.OK).body(beers);
 	}	    
 	
 	@GetMapping("/{id}")
