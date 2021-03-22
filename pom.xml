@@ -15,17 +15,17 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<!-- Será que essa versão está atualizada? Melhor checar :) -->
 		<version>2.4.4</version>
 	</parent>
 
 	<properties>
-		<!-- Posso utilizar java 9, 10, 11...? Claro! -->
 		<java.version>8</java.version>
-		<!-- MapStruct -->
+		<!-- MapStruct version -->
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
-		<!-- Lombok -->
+		<!-- Lombok version -->
 		<lombok.version>1.18.16</lombok.version>
+		<!-- Mockito version -->
+		<org.mockito.version>1.10.19</org.mockito.version>
 
 	</properties>
 	<dependencies>
@@ -93,25 +93,11 @@
 			<artifactId>validation-api</artifactId>
 		</dependency>
 
-		<!-- Json Patch -->
-		<dependency>
-			<groupId>com.github.java-json-tools</groupId>
-			<artifactId>json-patch</artifactId>
-			<version>1.12</version>
-		</dependency>
-
-		<!-- Gson: Java to Json conversion -->
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.2</version>
-			<scope>compile</scope>
-		</dependency>
-
+		<!-- Mockito -->
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
-			<version>1.10.19</version>
+			<version>${org.mockito.version}</version>
 			<scope>test</scope>
 		</dependency>
 

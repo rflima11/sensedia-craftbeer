@@ -13,11 +13,7 @@ import com.beerhouse.dto.mapper.BeerMapper;
 import com.beerhouse.exception.BeerNotFoundException;
 import com.beerhouse.exception.utils.ExceptionMessages;
 import com.beerhouse.repository.BeerRepository;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.fge.jsonpatch.JsonPatch;
-import com.github.fge.jsonpatch.JsonPatchException;
 
 @Service
 public class BeerService {
@@ -57,15 +53,6 @@ public class BeerService {
 		beerRepository.delete(beerRepository
 							    .findById(id)
 							    .orElseThrow(() -> new BeerNotFoundException(ExceptionMessages.getBeerNotFoundExceptionMessage(id))));
-	}
-
-	public BeerDto applyPatchToBeer(JsonPatch patch, BeerDto beerDto) {
-		try {
-			JsonNode patched = patch.apply(objectMapper.convertValue(beerDto, JsonNode.class));
-		return objectMapper.treeToValue(patched, BeerDto.class);
-		} catch (JsonProcessingException | JsonPatchException e) {
-		 throw new BeerNotFoundException(e.getMessage());
- 		}
 	}
 
 	public BeerDto update(Long id, Map<String, Object> fields) {

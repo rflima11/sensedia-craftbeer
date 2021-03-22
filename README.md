@@ -89,6 +89,25 @@ Dica: Copie e cole o conteúdo do arquivo acima no [Swagger Editor](https://edit
 
 ## Seção reservada para que você descreva brevemente como executar o seu projeto
 
-Pode ser algo simples, como executar o arquivo Application.java. Ou talvez tenha alguma dependência como base de dados, por exemplo.
+Olá! 
 
-TODO
+Para executar o projto basta possui o <b>Docker</b> instalado e rodar o seguinte comando: 
+
+```bash
+     docker run -p 9000:9000 rflima11/craft-beer.jar
+
+```
+A collection para teste das requisições está em:
+
+
+    craftbeer
+    |
+    |docs
+    |    |___craftbeer-collection.json
+
+Basta importá-la no postman.
+
+OBS: O script para inicialização dos dados: <b>data.sql</b> está <b>src/main/resources</b>.
+
+
+Agradeço a oportunidade de participar do processo seletivo.
