@@ -91,7 +91,7 @@ Dica: Copie e cole o conteúdo do arquivo acima no [Swagger Editor](https://edit
 
 Olá! 
 
-Para executar o projto basta possui o <b>Docker</b> instalado e rodar o seguinte comando: 
+Para executar o projeto  na porta 9000 basta possuir o <b>Docker</b> instalado e rodar o seguinte comando: 
 
 ```bash
      docker run -p 9000:9000 rflima11/craft-beer.jar
