@@ -61,7 +61,7 @@ public class BeerController {
 	public ResponseEntity<?> partialUpdate(@PathVariable Long id, @RequestBody Map<String, Object> fields) {
 		BeerDto beerUpdate = beerService.update(id, fields);
 		LOG.info("ATUALIZING BEER ID: " + beerUpdate.getId());
-		return ResponseEntity.noContent().build();
+		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 		
 	@GetMapping
