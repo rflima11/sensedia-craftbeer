@@ -107,7 +107,6 @@ A collection para teste das requisições está em:
 
 Basta importá-la no postman.
 
-OBS: O script para inicialização dos dados: <b>data.sql</b> está <b>src/main/resources</b>.
-
+OBS: O script para inicialização dos dados que é feita de forma automática ao inicializar a aplicação está em: <b>src/main/resources</b>.
 
 Agradeço a oportunidade de participar do processo seletivo.
