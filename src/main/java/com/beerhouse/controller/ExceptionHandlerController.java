@@ -30,6 +30,7 @@ public class ExceptionHandlerController {
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<StandardError> handleMethodArgumentNotValidException(HttpServletRequest req, MethodArgumentNotValidException e) {		
 		StandardError err = new StandardError(HttpStatus.BAD_REQUEST.value(), System.currentTimeMillis(), e.getFieldError().getDefaultMessage());
+		LOG.error("Request: " + req.getRequestURL() + " raised " + e);
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(err);
 	}
 }
