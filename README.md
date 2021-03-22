@@ -94,7 +94,7 @@ Olá!
 Para executar o projeto  na porta 9000 basta possuir o <b>Docker</b> instalado e rodar o seguinte comando: 
 
 ```bash
-     docker run -p 9000:9000 rflima11/craft-beer.jar
+    $ docker run -p 9000:9000 rflima11/craft-beer.jar
 
 ```
 A collection para teste das requisições está em:
