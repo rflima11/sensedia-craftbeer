@@ -53,7 +53,7 @@ public class BeerController {
 		beerDto.setId(id);
 		BeerDto beerUpdate = beerService.update(beerDto);
 		LOG.info("ATUALIZING BEER ID: " + beerUpdate.getId());
-		return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 	
 	@Transactional
