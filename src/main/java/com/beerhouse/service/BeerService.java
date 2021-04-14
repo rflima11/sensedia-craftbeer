@@ -21,8 +21,8 @@ public class BeerService {
 	@Autowired
 	private BeerRepository beerRepository;
 	
-	 @Autowired
-	 ObjectMapper objectMapper;
+	@Autowired
+	private ObjectMapper objectMapper;
 	
 	private BeerMapper mapper = BeerMapper.getInstance();
 	
