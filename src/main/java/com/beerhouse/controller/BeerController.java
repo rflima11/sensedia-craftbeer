@@ -58,7 +58,7 @@ public class BeerController {
 	
 	@Transactional
 	@PatchMapping("/{id}")
-	public ResponseEntity<?> partialUpdate(@PathVariable Long id, @RequestBody Map<String, Object> fields) {
+	public ResponseEntity<Void> partialUpdate(@PathVariable Long id, @RequestBody Map<String, Object> fields) {
 		BeerDto beerUpdate = beerService.update(id, fields);
 		LOG.info("ATUALIZING BEER ID: " + beerUpdate.getId());
 		return ResponseEntity.status(HttpStatus.OK).build();
@@ -78,7 +78,7 @@ public class BeerController {
 	
 	@Transactional
 	@DeleteMapping("/{id}")
-	public ResponseEntity<?> deleteBeerById(@PathVariable Long id) {
+	public ResponseEntity<Void> deleteBeerById(@PathVariable Long id) {
 		beerService.delete(id);
 		return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
 	}
